@@ -15,10 +15,6 @@ LangChain + LangGraph
 ChromaDB (vector store)
 Google Vertex AI (Gemini + Embeddings)
 
-📡 API Usage
-Ask a Question
-curl -X POST http://127.0.0.1:8000/ask \
--H "Content-Type: application/json" \
 -d '{"question": "How do I request a refund?"}'
 
 Example Response
@@ -44,4 +40,5 @@ Chat model: publishers/google/models/gemini-1.5-flash-002
 Embedding model: text-embedding-004 (latest)
 Logs help trace each agent’s step
 Supports extending with new agents.
+
 
