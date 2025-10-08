@@ -35,10 +35,6 @@ multi-agent-support-copilot/
 ├── README.md
 └── .env
 🔧 Development Notes
-Update models if needed in app/agents.py and app/retriever.py
-Chat model: publishers/google/models/gemini-1.5-flash-002
-Embedding model: text-embedding-004 (latest)
-Logs help trace each agent’s step
-Supports extending with new agents.
+
 
 
